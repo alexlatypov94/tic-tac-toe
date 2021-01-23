@@ -1,6 +1,6 @@
 import { field, ceil, newGame, title } from "./index"
 
-export class initGame {
+export class InitGame {
     public init() {
         document.body.insertAdjacentHTML("beforeend", title)
         document.body.insertAdjacentHTML("beforeend", field)
@@ -10,7 +10,6 @@ export class initGame {
 
     public initCiel() {
         const gameField: any = document.querySelector('.init-game-field')
-        console.log(gameField.offsetWidth)
         for (let i: number = 0; i < 9; i += 1) {
             gameField.insertAdjacentHTML("beforeend", ceil(i))
         }

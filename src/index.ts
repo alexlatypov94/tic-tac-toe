@@ -1,6 +1,8 @@
 import "./assets/css/style.scss";
-import { initGame } from "./components/index"
+import { InitGame, PlayMode } from "./components/index"
 
-const gameField = new initGame()
-
+const gameField = new InitGame()
+const play = new PlayMode()
 gameField.init()
+
+play.init()

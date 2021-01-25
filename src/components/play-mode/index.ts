@@ -1,2 +1,2 @@
-export * from "./play-mode.components"
-export * from "./play-mode.template"
+export * from "./play-mode.components";
+export * from "./play-mode.template";

@@ -18,7 +18,8 @@ module.exports = {
         "import/prefer-default-export": "off",
         "import/export": "off",
         "class-methods-use-this": "off",
-        "no-unused-expressions": "off"
+        "no-unused-expressions": "off",
+        "import/no-unresolved": "off"
     },
     plugins: ["jest"]
 };

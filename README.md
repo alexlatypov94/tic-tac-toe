@@ -1,1 +1,1 @@
-https://rolling-scopes-school.github.io/tic-tac-toe/tic-tac-toe
+https://rolling-scopes-school.github.io/tic-tac-toe/tic-tac-toe/
